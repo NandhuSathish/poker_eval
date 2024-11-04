@@ -1,4 +1,4 @@
-import PreflopAdvisor from './components/PreflopAdvisor';
+import PreflopAdvisor from '@/components/PreflopAdvisor';
 
 function App() {
     return (

@@ -23,7 +23,7 @@ jobs:
               uses: bahmutov/npm-install@v1
 
             - name: Build project
-              run: npm run build
+              run: rm -rf node_modules/.vite && npm run build
 
             - name: Upload production-ready build files
               uses: actions/upload-artifact@v3
