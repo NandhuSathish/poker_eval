@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     plugins: [react()],
-    base: '/POKER_EV/',
+    base: '/poker_eval/',
     build: {
         rollupOptions: {
             external: ['src/components/PreflopAdvisor'],
