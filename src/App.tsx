@@ -1,6 +1,4 @@
-import PokerTrainer from './components/PokerTrainer';
-import PreflopAdvisor from './components/PreFlopAdvisor';
-// import EvCalculator from './EvCalculator';
+import PreflopAdvisor from 'src/components/PreflopAdvisor';
 
 function App() {
     return (
